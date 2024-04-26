@@ -1,4 +1,4 @@
-module game(input clk, reset, d, seed, shift_seed,  output q);
+module game(input clk, reset, d, seed, shift_seed, d0, d1, s,   output q, y);
 
 flopr flopr1();
 
