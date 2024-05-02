@@ -11,7 +11,7 @@ logic [63:0] shift_seed;
   //create file handles to write results to a file
    
    // instantiate device under test (small LFSR)
-  lfsr64 dut(seed, clk, run, reset, shift_seed);
+  game dut(clk, reset, run, seed, shift_seed);
    //set up a clock signal
    always     
      begin
@@ -20,7 +20,7 @@ logic [63:0] shift_seed;
    
    initial
      begin
-      #0 seed = 64'h1;
+      #0 seed = 64'h2222_2200_0077_0000;
       #0 reset = 1'b1;
       #3 reset = 1'b0;
       #0 run = 1'b1;

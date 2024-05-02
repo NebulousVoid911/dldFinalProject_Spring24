@@ -55,7 +55,7 @@ module top_demo
   logic        smol_clk;
    
   // Place Conway Game of Life instantiation here
- 
+  FSM dut(smol_clk, btn[0], btn[1], sw[0], sw[1], sw[3], 64'h4206_9960_2400_0700, n2);
   // HDMI
   // logic hdmi_out_en;
   //assign hdmi_out_en = 1'b0;

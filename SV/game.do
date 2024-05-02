@@ -27,7 +27,7 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog flopr.sv adder.sv sub.sv top.sv tb.sv
+vlog flopr.sv flopenl.sv datapath.sv game.sv game_tb.sv
 
 # start and run simulation
 vsim -voptargs=+acc work.tb
@@ -37,7 +37,7 @@ view wave
 
 -- display input and output signals as hexidecimal values
 # Diplays All Signals recursively
-add wave -bin -r /tb/*
+add wave -hex -r /tb/*
 
 -- Set Wave Output Items 
 TreeUpdate [SetDefaultTree]
@@ -52,6 +52,6 @@ configure wave -rowmargin 4
 configure wave -childrowmargin 2
 
 -- Run the Simulation
-run 250 ns
+run 100000 ns
 
 

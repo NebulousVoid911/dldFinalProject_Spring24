@@ -1,13 +1,16 @@
-module FSM (clk, reset, s, y);
+module FSM (clk, resetG, resetL, run, rundom, display, seed, hdmi);
 
-   input logic  clk;
-   input logic  reset;
-   input logic 	y;
+   input logic  clk, resetG, resetL, run, rundom, display;
+   input logic [63:0] seed;
+   output logic [63:0] hdmi;
+   logic [63:0] gOut, shift_seed;
+   logic run2, rundom2;
    
-   
-   output logic [1:0] s;
-
-   typedef enum 	logic [1:0] {S0, S1,} statetype;
+   game conway(clk, resetG, run2, shift_seed, gOut);
+   lfsr64 rs(seed, clk, rundom2, resetL, shift_seed);
+   flop #2 flopsm(clk, {run, rundom}, {run2, rundom2});
+   assign hdmi = (display) ? shift_seed : gOut;
+   /*typedef enum 	logic [1:0] {S0, S1,} statetype;
    statetype state, nextstate;
    
    // state register
@@ -28,5 +31,5 @@ module FSM (clk, reset, s, y);
 	   nextstate <= S1;
        end
      endcase
-   
+   */
 endmodule

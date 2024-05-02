@@ -1,0 +1,1005 @@
+# //  ModelSim SE-64 2021.3 Jul 13 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do FSM.do
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:26:05 on May 01,2024
+# vlog -reportprogress 300 flopr.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flopr
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:26:05 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:26:05 on May 01,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flopr(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:34:36 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# ** Error: FSM_tb.sv(52): (vlog-2730) Undefined variable: 'reset'.
+# End time: 23:34:37 on May 01,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/modeltech64_2021.3/win64/vlog failed.
+# Error in macro ./FSM.do line 30
+# C:/modeltech64_2021.3/win64/vlog failed.
+#     while executing
+# "vlog flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv"
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:35:11 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:35:11 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:35:13 on May 01,2024, Elapsed time: 0:09:08
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:35:13 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/flopsm File: flop.sv
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'flopenl' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/flopsm File: flop.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./FSM.do PAUSED at line 33
+do FSM.do
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:35:30 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:35:30 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:35:13 on May 01,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:37:34 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:37:35 on May 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:37:37 on May 01,2024, Elapsed time: 0:02:24
+# Errors: 2, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:37:37 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:37:58 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:37:58 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:38:00 on May 01,2024, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:38:00 on May 01,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:39:36 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:39:37 on May 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:39:38 on May 01,2024, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:39:38 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:40:25 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:40:25 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:40:27 on May 01,2024, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:40:27 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:40:40 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:40:40 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:40:43 on May 01,2024, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:40:43 on May 01,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:41:28 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:41:28 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:41:30 on May 01,2024, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:41:30 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:42:31 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:42:31 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:42:33 on May 01,2024, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:42:33 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:46:23 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:46:23 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:25 on May 01,2024, Elapsed time: 0:03:52
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:46:25 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:47:09 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:47:10 on May 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:47:13 on May 01,2024, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:47:13 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# Causality operation skipped due to absence of debug database file
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:49:33 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:49:33 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:49:34 on May 01,2024, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:49:34 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:51:19 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:51:19 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:51:20 on May 01,2024, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:51:20 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:53:17 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:53:17 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:53:18 on May 01,2024, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:53:18 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:56:53 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:56:53 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:56:54 on May 01,2024, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:56:54 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 23:58:02 on May 01,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 23:58:02 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:58:03 on May 01,2024, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 23:58:03 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 00:06:27 on May 02,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 00:06:27 on May 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:06:28 on May 02,2024, Elapsed time: 0:08:25
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:06:28 on May 02,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 00:07:08 on May 02,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 00:07:08 on May 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:07:09 on May 02,2024, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:07:09 on May 02,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 00:10:48 on May 02,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 00:10:48 on May 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:10:49 on May 02,2024, Elapsed time: 0:03:40
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:10:49 on May 02,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 00:24:10 on May 02,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 00:24:10 on May 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:24:10 on May 02,2024, Elapsed time: 0:13:21
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:24:11 on May 02,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is cleme@DESKTOP-U3ND2GM.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 00:27:52 on May 02,2024
+# vlog -reportprogress 300 flop.sv flopenl.sv datapath.sv game.sv lfsr.sv FSM.sv FSM_tb.sv 
+# -- Compiling module flop
+# -- Compiling module flopenl
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module game
+# -- Compiling module lfsr
+# -- Compiling module lfsr64
+# -- Compiling module FSM
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	lfsr
+# 	tb
+# End time: 00:27:52 on May 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:27:53 on May 02,2024, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:27:53 on May 02,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.FSM(fast)
+# Loading work.game(fast)
+# Loading work.flopenl(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.lfsr64(fast)
+# Loading work.flop(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf

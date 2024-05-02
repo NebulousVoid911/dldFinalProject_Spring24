@@ -23,7 +23,6 @@
 // either express or implied. See the License for the specific language governing permissions 
 // and limitations under the License.
 ////////////////////////////////////////////////////////////////////////////////////////////////
-`timescale 1ns / 1ps
 module flop #(parameter WIDTH = 8) ( 
   input  logic             clk,
   input  logic [WIDTH-1:0] d, 

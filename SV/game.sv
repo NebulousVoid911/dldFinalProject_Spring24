@@ -1,18 +1,13 @@
-module game(input clk, reset, d, seed, shift_seed, d0, d1, s,   output q, y);
+module game(clk, reset, run, seed, shift_seed);
 
-flopr flopr1();
-
-
-
-mux2 select();
-
+input logic clk, reset, run;
+input logic [63:0] seed;
+output logic [63:0] shift_seed;
+logic [63:0] dpOut;
 
 
-lfsr64 randomizer();
-
-
-
-FSM states();
+flopenl #64 flopr1(clk, reset, run, dpOut, seed, shift_seed);
+datapath dp(shift_seed, dpOut);
 
 
 endmodule
