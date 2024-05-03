@@ -1,4 +1,4 @@
-// testbench to prove maximal LFSR
+
 module tb ();
 
    //logic variables to route input and output to DUT
